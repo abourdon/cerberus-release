@@ -57,7 +57,7 @@ cd tmp
 
 # cerberus-source project release
 rm -rf cerberus-source
-git clone git@github.com:abourdon/cerberus-source.git
+git clone git@github.com:cerberustesting/cerberus-source.git
 cd cerberus-source
 ${RUNCMDS_PATH} -e RELEASE_VERSION ${RELEASE_VERSION} -e NEXT_DEVELOPMENT_VERSION ${NEXT_DEVELOPMENT_VERSION} -s release.cmds
 cd ..
@@ -68,7 +68,7 @@ while [[ `curl -s -o /dev/null -w "%{http_code}" https://sourceforge.net/project
 
 # cerberus-as-glassfish project release
 rm -rf cerberus-docker
-git clone git@github.com:abourdon/cerberus-docker.git
+git clone git@github.com:cerberustesting/cerberus-docker.git
 cd cerberus-docker/images/cerberus-as-glassfish
 ${RUNCMDS_PATH} -e RELEASE_VERSION ${RELEASE_VERSION} -s release.cmds
 cd ../../..
