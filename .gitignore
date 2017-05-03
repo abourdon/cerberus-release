@@ -1,0 +1,14 @@
+# Project-specific related files
+/tmp/ 
+
+# IntelliJ related files
+/.idea
+/*.iml
+
+# Eclipse related files
+/.classpath
+/.project
+/.settings/
+
+# Netbeans related files
+/nb-configuration.xml
